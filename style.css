@@ -1,0 +1,223 @@
+.navbar {
+    background-color: rgb(255, 255, 255) !important;
+}
+.navbar li a {
+    color: rgb(102, 58, 1) !important;
+}
+.navbar li a:hover {
+    color: rgba(0, 0, 0, 0.432) !important;
+}
+h1,h2{
+    font-family: 'Roboto Slab', serif;
+}
+.btn {
+    width: 80px !important;
+    border-color: rgba(0, 0, 0, 0.13) !important;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.719) !important;
+    color: white !important;
+}
+hr{
+    color:#CCC;
+    background-color:#CCC;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+ol li{
+    font-style: italic !important;
+}
+@media screen and (max-width: 800px) {
+    .column_m {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column_m {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+.column_m {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.row {
+    margin: 0 -5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 16px;
+    text-align: left;
+    background-color: #FFF;
+}
+.card-img-top{
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card a{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.form-search{
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.search-form {
+    border-radius: 30px 0 0 30px;
+}
+.input-group {
+    width:100%;
+}
+.input-group-btn {
+    max-width:140px;
+}
+.search-btn {
+    cursor:pointer;
+    border-radius: 0 30px 30px 0; 
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+}
+/* prica range filter*/
+.price-range {
+    margin-top: 30px;
+}
+.well {
+    background-color: #FFFFFF;
+    border: 1px solid #F7F7F0;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 35px;
+}
+.slider {
+  width: 100%;
+}
+
+input[type="range"] {
+  -webkit-appearance: none !important;
+  width: 100%;
+  height: 15px;
+  background-color: #A3CD99;
+  border: 1px solid #97c68b;
+  border-radius: 10px;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+input[type="range"]:hover {
+  background-color: #b2d5aa;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 20px;
+  height: 20px;
+  background-color: #579E81;
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px #3c6d59;
+  transition: all 0.5s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: #457d66;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+  box-shadow: 0px 0px 1px #3c6d59;
+}
+
+#rangevalue {
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  padding: 10px 0px;
+  width: 100%;
+  color: #579E81;
+}
+
+/*cart */
+.cart_product {
+    display: block;
+    /*  margin: 15px -70px 10px 25px;*/
+}
+.cart_quantity_button a {
+    background: #F0F0E9;
+    color: #696763;
+    display: inline-block;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    text-align: center;
+    width: 35px;
+    float: left;
+    line-height: 28px;
+}
+.cart_quantity_input {
+    color: #696763;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.cart_delete {
+    
+    margin-right: -12px;
+    overflow: hidden;
+}
+.cart_delete a {
+    background: #F0F0E9;
+    color: #FFFFFF;
+    padding: 5px 7px;
+    font-size: 16px
+}
+.cart_delete a:hover {
+    background: #FE980F
+}
+.cart_image{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
